@@ -1,3 +1,11 @@
 Documentos de comandos de git que estara en git si o no.
 
-git init: inicializa el repositorio
+Trabajo local:
+    git init: inicializa el repositorio
+
+    git add: añadir un archio a staging
+
+    git commit: mandar el archivo al repositorio local
+
+    git restore --staged <archivo> : sacar del area de staged
+    
