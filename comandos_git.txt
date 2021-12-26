@@ -8,4 +8,20 @@ Trabajo local:
     git commit: mandar el archivo al repositorio local
 
     git restore --staged <archivo> : sacar del area de staged
-    
+
+Visualización:
+    git status: estado en general
+
+    git log: historial de cambios | --stat: con detalles
+
+    git show <archivo>: muestra los cambios hechos en el ultimo commit
+
+    git diff: muestra diferencias entre los que estan en staging y los que no se han añadidi
+
+    git diff <#commit1> <#commit2>: diferencias entre dos versiones de commits
+
+Modificacion:
+    git reset <#commit1>: vuelve al archio de ese commit | --soft: sin borrar los commits anteriores --hard: todo parejo
+
+
+
