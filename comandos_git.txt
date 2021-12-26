@@ -21,7 +21,11 @@ Visualización:
     git diff <#commit1> <#commit2>: diferencias entre dos versiones de commits
 
 Modificacion:
-    git reset <#commit1>: vuelve al archio de ese commit | --soft: sin borrar los commits anteriores --hard: todo parejo
+    git reset <#commit>: vuelve al archio de ese commit | --soft: sin borrar los commits anteriores --hard: todo parejo
 
+    git checkout <#commit> <archivo>: vuelve un archivo a la version del commit indicada sin cambiar nada en el staging
+    (si se hace commit si se modificara el archivo)
+
+        git checkout master : vuelve el archivo a la ultima version encontrada antes de hacer el checkout
 
 

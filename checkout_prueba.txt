@@ -1,3 +1,3 @@
 Este archivo funcionara para probar el comando checkout
 
-Esto es lo originalmente escrito
+Esto es lo modificado
