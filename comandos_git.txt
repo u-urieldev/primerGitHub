@@ -28,4 +28,9 @@ Modificacion:
 
         git checkout master : vuelve el archivo a la ultima version encontrada antes de hacer el checkout
 
+Ramas: 
+la rama se creara desde el lugar en donde estas ubicado en git
 
+    git branch <nombre_branch>: crea una nueva rama con el nombre especificado
+
+    git checkout <rama>: cambia a la rama especificada
