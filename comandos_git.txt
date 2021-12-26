@@ -34,3 +34,5 @@ la rama se creara desde el lugar en donde estas ubicado en git
     git branch <nombre_branch>: crea una nueva rama con el nombre especificado
 
     git checkout <rama>: cambia a la rama especificada
+
+    git merge <rama>: fusiona la rama y añade al historial de commits el merge de la rama en la que se encuentra
