@@ -1,0 +1,3 @@
+Documentos de comandos de git que estara en git si o no.
+
+git init: inicializa el repositorio
