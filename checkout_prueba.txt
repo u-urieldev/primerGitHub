@@ -2,4 +2,4 @@ Este archivo funcionara para probar el comando checkout
 
 Esto es lo modificado
 
-Esto se sera un commit en la master branch.
+Esto se sera un commit en la master branch. SOBREESCRITURA EN ALT
