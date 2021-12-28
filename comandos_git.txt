@@ -36,3 +36,19 @@ la rama se creara desde el lugar en donde estas ubicado en git
     git checkout <rama>: cambia a la rama especificada
 
     git merge <rama>: fusiona la rama y añade al historial de commits el merge de la rama en la que se encuentra
+
+Remoto:
+    1:
+        git remote add origin <url> : Conecta el repositorio local con uno remoto
+
+        git remote -v: lista las url para hacer fetch y push
+
+    2:
+        git pull origin master: Traer los cambios del rpositorio remoto y los fusiona con la rama master del repositorio local
+
+        git pull origin master --allow-unrelated-histories: Obliga a fusionar la rama del repositorio remoto con el local (Normalmente primera vez)
+
+    3:
+        git push origin master: enviar la rama master al repositorio remoto
+    
+    git remote remove origin: elimina la conexion con el repositorio remoto
