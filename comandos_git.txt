@@ -41,7 +41,7 @@ la rama se creara desde el lugar en donde estas ubicado en git
     git show-branch: muestra los cambios que han ocurrido en las ramas
     --all
 
-    gitk: 
+    git push origin <nombre_rama>: manda una rama al remoto 
 
 Remoto:
     1:
