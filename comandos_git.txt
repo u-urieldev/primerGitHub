@@ -71,3 +71,9 @@ Tags:
     git tag -d <nombre_tag>: eliminar un tag
 
     git push origin :refs/tgs/<nombre_tag>: eliminar un tag del remoto
+
+Multiples Colaboradores:
+    git clone <url>: traer repositorio
+
+    Añadir persona colaborativa desde GitHub:
+        settings(del repositorio)/manage access/ boton add
