@@ -13,6 +13,7 @@ Visualización:
     git status: estado en general
 
     git log: historial de cambios | --stat: con detalles
+    --all --graph --decorate --oneline (visualizacion completa)
 
     git show <archivo>: muestra los cambios hechos en el ultimo commit
 
@@ -52,3 +53,16 @@ Remoto:
         git push origin master: enviar la rama master al repositorio remoto
     
     git remote remove origin: elimina la conexion con el repositorio remoto
+
+Tags:
+    git tag -a <v0.1> -m "mensaje" <hash>: Crea un nuevo tag
+
+    git tag: Muestra los tags que existen
+
+    git show-ref --tags: muestra los tags y los el commit asociado
+
+    git push origin --tags: mandar los tags al remoto
+    
+    git tag -d <nombre_tag>: eliminar un tag
+
+    git push origin :refs/tgs/<nombre_tag>: eliminar un tag del remoto
